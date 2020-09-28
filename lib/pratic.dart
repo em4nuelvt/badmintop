@@ -16,23 +16,23 @@ import 'package:flutter/material.dart';
              padding: EdgeInsets.zero,
              children: <Widget>[
                UserAccountsDrawerHeader(
-                 accountName: Text("Professor"),
-                 accountEmail: Text("professor@professor.com"),
+                 accountName: Text("Praticante"),
+                 accountEmail: Text("Praticante@badtop.com"),
                  currentAccountPicture: CircleAvatar(
                    radius: 30.0,
                    backgroundColor: Colors.white,
+                 ),
+                 decoration: BoxDecoration(
+                     gradient: LinearGradient(colors: <Color>[
+                       Colors.blueAccent,
+                       Colors.lightBlueAccent,
+                     ]
+                     )
                  ),
                ),
                ListTile(
                  title: Text('Configurações',
                    style: TextStyle(color: Colors.blue),),
-                 onTap: () {
-                   Navigator.pop(context);
-                 },
-               ),
-               ListTile(
-                 title: Text('Criar Plano de Aula',
-                     style: TextStyle(color: Colors.blue)),
                  onTap: () {
                    Navigator.pop(context);
                  },
