@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "779725928334",
+    "firebase_url": "https://badtop-eafd5.firebaseio.com",
+    "project_id": "badtop-eafd5",
+    "storage_bucket": "badtop-eafd5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:779725928334:android:ce7a406ab91099e36896df",
+        "android_client_info": {
+          "package_name": "com.example.badmintop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "779725928334-rdcgs57qtq7ja3udirm2kq683uet0uif.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOMPB7kDWd8f3yWtuGRiOzAIGh3wjvYos"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "779725928334-rdcgs57qtq7ja3udirm2kq683uet0uif.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
