@@ -8,13 +8,20 @@ buildscript {
     dependencies {
         classpath 'com.android.tools.build:gradle:3.5.0'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+<<<<<<< HEAD
         classpath 'com.google.gms:google-services:4.3.4'
+=======
+>>>>>>> 45dec374ac5730bfc6a0a64c1c93d0d2db87b2a4
     }
 }
 
 allprojects {
     repositories {
+<<<<<<< HEAD
         google()  // Google's Maven repository
+=======
+        google()
+>>>>>>> 45dec374ac5730bfc6a0a64c1c93d0d2db87b2a4
         jcenter()
     }
 }
