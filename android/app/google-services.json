@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "779725928334-adiq3m2203nnubv6ilq3untb85of3c62.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.badmintop",
+            "certificate_hash": "edbe97375366f3090700466b9c9a53ee6b519ac6"
+          }
+        },
+        {
           "client_id": "779725928334-rdcgs57qtq7ja3udirm2kq683uet0uif.apps.googleusercontent.com",
           "client_type": 3
         }

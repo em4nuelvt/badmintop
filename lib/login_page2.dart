@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:badmintop/pratic.dart';
 import 'package:badmintop/sign_in.dart';
 import 'pratic.dart';
+
 class LoginPage2 extends StatefulWidget {
   @override
   _LoginPage2State createState() => _LoginPage2State();
@@ -27,6 +28,7 @@ class _LoginPage2State extends State<LoginPage2> {
       ),
     );
   }
+
   Widget _signInButton() {
     return OutlineButton(
       splashColor: Colors.grey,
@@ -67,4 +69,3 @@ class _LoginPage2State extends State<LoginPage2> {
     );
   }
 }
-

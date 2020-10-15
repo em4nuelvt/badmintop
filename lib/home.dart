@@ -1,55 +1,60 @@
-import 'prof.dart';
 import 'package:flutter/material.dart';
-import 'pratic.dart';
 import 'login_page.dart';
+import 'login_page2.dart';
+
 class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Stack(
       children: <Widget>[
-        Container(
-          color: Colors.blue,
-        ),
+        Image.asset("assets/badmau.jpg", fit: BoxFit.cover, height: 800.0),
         Material(
             type: MaterialType.transparency,
             child: Padding(
-              padding: EdgeInsets.fromLTRB(7.0, 120.0, 7.0, 0.0),
+              padding: EdgeInsets.fromLTRB(50.0, 140.0, 50.0, 0.0),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: <Widget>[
                   Padding(
-                    padding: EdgeInsets.only(bottom: 100.0),
+                    padding: EdgeInsets.only(bottom: 150.0),
                     child: Text("Bem vindo ao Badtop!",
                         textAlign: TextAlign.center,
                         style: TextStyle(
-                            color: Colors.white,
+                            color: Colors.black,
                             fontSize: 30.0,
                             fontWeight: FontWeight.bold)),
                   ),
                   Container(
-                    height: 80.0,
+                    height: 70.0,
                     child: RaisedButton(
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(30.0),
+                      ),
                       child: Text(
                         " Entrar como professor",
-                        style: TextStyle(fontSize: 25.0, color: Colors.blue),
+                        style: TextStyle(fontSize: 20.0, color: Colors.black),
                       ),
                       color: Colors.white,
                       onPressed: () {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (BuildContext context) => LoginPage()));
+                                builder: (BuildContext context) =>
+                                    LoginPage()));
                       },
                     ),
                   ),
                   Padding(
                     padding: EdgeInsets.fromLTRB(0.0, 50.0, 0.0, 0.0),
                     child: Container(
-                      height: 80.0,
+                      height: 70.0,
                       child: RaisedButton(
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(30.0),
+                        ),
                         child: Text(
                           " Entrar como praticante",
-                          style: TextStyle(fontSize: 25.0, color: Colors.blue),
+                          style: TextStyle(fontSize: 20.0, color: Colors.black),
                         ),
                         color: Colors.white,
                         onPressed: () {
@@ -57,7 +62,7 @@ class Home extends StatelessWidget {
                               context,
                               MaterialPageRoute(
                                   builder: (BuildContext context) =>
-                                      LoginPage()));
+                                      LoginPage2()));
                         },
                       ),
                     ),

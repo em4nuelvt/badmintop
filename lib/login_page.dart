@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'prof.dart';
 import 'sign_in.dart';
 
 class LoginPage extends StatefulWidget {
@@ -35,7 +36,7 @@ class _LoginPageState extends State<LoginPage> {
           Navigator.of(context).push(
             MaterialPageRoute(
               builder: (context) {
-                return FirstScreen();
+                return prof();
               },
             ),
           );
